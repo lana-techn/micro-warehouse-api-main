@@ -1,0 +1,42 @@
+/user-service/.env
+/product-service/.env
+/warehouse-service/.env
+/transaction-service/.env
+/notification-service/.env
+/api-gateway/.env
+/merchant-service/.env
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binaries
+*.test
+
+# Dependency directories
+vendor/
+go.sum
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
